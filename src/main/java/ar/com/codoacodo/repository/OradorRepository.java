@@ -1,6 +1,8 @@
-package ar.com.codoacodo;
+package ar.com.codoacodo.repository;
 
 import java.util.List;
+
+import ar.com.codoacodo.entity.Orador;
 
 public interface OradorRepository {
    public void save(Orador orador);

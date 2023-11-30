@@ -1,7 +1,11 @@
-package ar.com.codoacodo;
+package ar.com.codoacodo.entity;
 import java.sql.Connection;
 import java.sql.Timestamp;
 import java.time.Instant;
+
+import ar.com.codoacodo.repository.AdministradorDeConexiones;
+import ar.com.codoacodo.repository.MysqlOradorRepository;
+import ar.com.codoacodo.repository.OradorRepository;
 public class MainOrador {
 
 	public static void main(String[] args) {

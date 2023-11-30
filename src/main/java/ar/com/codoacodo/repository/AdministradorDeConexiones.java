@@ -1,4 +1,4 @@
-package ar.com.codoacodo;
+package ar.com.codoacodo.repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

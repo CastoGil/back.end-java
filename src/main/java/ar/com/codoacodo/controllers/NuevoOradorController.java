@@ -5,10 +5,10 @@ import java.sql.Connection;
 import java.sql.Timestamp;
 import java.time.Instant;
 
-import ar.com.codoacodo.AdministradorDeConexiones;
-import ar.com.codoacodo.MysqlOradorRepository;
-import ar.com.codoacodo.Orador;
-import ar.com.codoacodo.OradorRepository;
+import ar.com.codoacodo.entity.Orador;
+import ar.com.codoacodo.repository.AdministradorDeConexiones;
+import ar.com.codoacodo.repository.MysqlOradorRepository;
+import ar.com.codoacodo.repository.OradorRepository;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

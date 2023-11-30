@@ -1,4 +1,4 @@
-package ar.com.codoacodo;
+package ar.com.codoacodo.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,6 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
+import ar.com.codoacodo.entity.Orador;
+
 import java.sql.Timestamp;
 
 public class MysqlOradorRepository implements OradorRepository {

@@ -1,4 +1,4 @@
-package ar.com.codoacodo;
+package ar.com.codoacodo.entity;
 import java.sql.Timestamp;
 
 public class Orador {
