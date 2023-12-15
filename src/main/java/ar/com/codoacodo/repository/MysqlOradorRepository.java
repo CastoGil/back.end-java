@@ -34,6 +34,14 @@ public class MysqlOradorRepository implements OradorRepository {
         if (filasAfectadas == 0) {
             throw new SQLException("Error al guardar el orador en la base de datos, no se generó ningún ID.");
         }
+        try (ResultSet res = statement.getGeneratedKeys()) {
+            if (res.next()) {
+                int id = res.getInt(1);
+                orador.setId(id);
+            } else {
+                throw new SQLException("Error al obtener el ID generado para el orador.");
+            }
+        }
     } catch (SQLException e) {
         throw new RuntimeException("Error al guardar el orador en la base de datos", e);
     }

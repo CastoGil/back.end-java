@@ -38,7 +38,9 @@ public class Orador {
     public int getId() {
         return id;
     }
-
+    public void setId(int id) {
+        this.id = id;
+    }
     public String getNombre() {
         return nombre;
     }
@@ -78,5 +80,5 @@ public class Orador {
     public void setFechaAlta(Timestamp fechaAlta) {
         this.fechaAlta = fechaAlta;
     }
-   
+	
 }
